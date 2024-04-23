@@ -1,0 +1,36 @@
+[{
+        "_id": 1,
+        "title": "Bomba",
+        "category": "Toyota",
+        "image": "./assets/bomba.jpg"
+    },
+    {
+        "_id": 2,
+        "title": "Disco",
+        "category": "Toyota",
+        "image": "./assets/disco.jpg"
+    },
+    {
+        "_id": 3,
+        "title": "Embrague",
+        "category": "Toyota",
+        "image": "./assets/embragues.jpg"
+    },
+    {
+        "_id": 4,
+        "title": "Optica",
+        "category": "Toyota",
+        "image": "./assets/optica.jpg"
+    },
+    {
+        "_id": 5,
+        "title": "Paragolpe delantero",
+        "category": "Toyota",
+        "image": "./assets/paragolpe.jpg"
+    },
+    {
+        "_id": 6,
+        "title": "Paragolpe Trasero ",
+        "category": "Toyota",
+        "image": "./assets/paragolpe2.jpg"
+    }]
