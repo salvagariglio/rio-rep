@@ -42,7 +42,6 @@ import {
   RouterProvider,
   ScrollRestoration
   } from 'react-router-dom'
-import Company from './pages/Company'
 import Home from './pages/Home'
 
   const Layout = () => {
@@ -66,10 +65,6 @@ const router = createBrowserRouter([
       {
         path:"/",
         element: <Home />,
-      },
-      {
-        path:"/empresa",
-        element: <Company />,
       },
       {
         path:"/productos",

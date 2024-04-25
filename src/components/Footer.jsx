@@ -5,7 +5,7 @@ import { FaPhone, FaFacebookSquare, FaInstagram } from "react-icons/fa"
 
 const Footer = () => {
     return (
-        <footer className=' bg-gradient-to-r from-red-900 to-blue-900 bottom-0 w-full h-24 flex'>
+        <footer className=' bg-gradient-to-r from-red-900 to-blue-900 bottom-0 w-full h-36 flex'>
             <div className='  w-2/6 h-auto flex items-center justify-center'>
                 <a href='../pages/Home.jsx'>
                     <img className=' w-5/6' src={Logo} alt='Logo' />

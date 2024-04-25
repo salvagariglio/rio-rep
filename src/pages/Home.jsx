@@ -1,9 +1,12 @@
 import React from 'react'
+import Carrusell from '../components/Carrusell'
+import OurBussines from '../components/OurBussines'
 
 const Home = () => {
     return (
-        <div>
-            <h1>Inicio</h1>
+        <div className='bg-gray-100'>
+            <OurBussines />
+            <Carrusell />
         </div>
     )
 }

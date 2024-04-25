@@ -31,11 +31,6 @@ const Header = () => {
                                 <span> Inicio </span>
                             </Link>
                             <hr className='border-2 w-[75%]'></hr>
-                            <Link to='/empresa' onClick={handleNav} className=' flex gap-4 '>
-                                < BsPersonArmsUp size={20}  />
-                                <span> Empresa </span>
-                            </Link>
-                            <hr className='border-2 w-[75%]'></hr>
                             <Link to='/productos' onClick={handleNav} className=' flex gap-4'>
                                 < FaCar size={20} />
                                 <span> Productos </span>
@@ -62,9 +57,6 @@ const Header = () => {
                     <ul className="w-auto flex items-center justify-center gap-7 p-1 px-4 rounded-sm text-gray-100 bg-blue-800 ">
                         <li className="">
                             <Link to='/'> Inicio </Link>
-                        </li>
-                        <li className="">
-                            <Link to='/empresa' > Empresa </Link>
                         </li>
                         <li className="">
                             <Link to='/productos'> Productos </Link>

@@ -1,36 +1,36 @@
 [{
         "_id": 1,
-        "title": "Bomba",
+        "title": "Bomba de agua",
         "category": "Toyota",
-        "image": "./assets/bomba.jpg"
+        "image": "./images/bombatoyota.PNG"
     },
     {
         "_id": 2,
-        "title": "Disco",
+        "title": "Disco de frenos",
         "category": "Toyota",
-        "image": "./assets/disco.jpg"
+        "image": "./images/discodefreno.PNG"
     },
     {
         "_id": 3,
         "title": "Embrague",
         "category": "Toyota",
-        "image": "./assets/embragues.jpg"
+        "image": "./images/embraguehilux.PNG"
     },
     {
         "_id": 4,
-        "title": "Optica",
+        "title": "Óptica",
         "category": "Toyota",
-        "image": "./assets/optica.jpg"
+        "image": "./images/opticacorola.PNG"
     },
     {
         "_id": 5,
         "title": "Paragolpe delantero",
         "category": "Toyota",
-        "image": "./assets/paragolpe.jpg"
+        "image": "./images/paragolpehilux.PNG"
     },
     {
         "_id": 6,
-        "title": "Paragolpe Trasero ",
+        "title": "Paragolpe trasero ",
         "category": "Toyota",
-        "image": "./assets/paragolpe2.jpg"
+        "image": "./images/paragolpe2hilux.PNG"
     }]
