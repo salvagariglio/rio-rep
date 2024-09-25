@@ -1,0 +1,24 @@
+.map-container {
+    width: 80vw;
+    height: 60vh;
+    max-width: 1200px;
+    max-height: 800px;
+}
+
+/* Media query para pantallas de PC normales */
+@media (min-width: 1024px) {
+    .map-container {
+        width: 800px;
+        height: 600px;
+
+    }
+}
+
+/* Media query para pantallas más grandes */
+@media (min-width: 1920px) {
+    .map-container {
+        width: 1200px;
+        height: 800px;
+
+    }
+}

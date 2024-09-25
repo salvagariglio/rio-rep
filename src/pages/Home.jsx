@@ -1,4 +1,3 @@
-import React from 'react'
 import Carrusell from '../components/Carrusell'
 import OurBussines from '../components/OurBussines'
 

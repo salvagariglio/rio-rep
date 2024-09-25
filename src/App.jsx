@@ -29,7 +29,6 @@ export default App
 */
 
 
-import React from "react"
 import Header from "./components/Header"
 import Banner from "./components/Banner"
 import Products from './pages/Products'
@@ -41,38 +40,38 @@ import {
   Outlet,
   RouterProvider,
   ScrollRestoration
-  } from 'react-router-dom'
+} from 'react-router-dom'
 import Home from './pages/Home'
 
-  const Layout = () => {
-    return(
-      <div>
-        <Header />
-        <Banner />
-        <ScrollRestoration />
-        <Outlet />
-        <ButtonWsp />
-        <Footer />
-      </div>
-    )
-  }
+const Layout = () => {
+  return (
+    <div>
+      <Header />
+      <Banner />
+      <ScrollRestoration />
+      <Outlet />
+      <ButtonWsp />
+      <Footer />
+    </div>
+  )
+}
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path: "/",
     element: <Layout />,
     children: [
       {
-        path:"/",
+        path: "/",
         element: <Home />,
       },
       {
-        path:"/productos",
+        path: "/productos",
         element: <Products />,
       },
       {
-        path:"/contacto",
-        element:<Contact />,
+        path: "/contacto",
+        element: <Contact />,
       }
     ],
   },
