@@ -54,13 +54,13 @@ const Header = () => {
                 </div>
                 <div className="w-auto absolute top-1/2 right-4 flex items-center">
                     <ul className="w-auto flex items-center justify-center gap-7 p-1 px-4 rounded-sm ">
-                        <li className={`${location.pathname === '/' ? "bg-blue-800 text-gray-100" : "bg-transparent"} font-medium rounded-xl px-3 py-0.5`}>
+                        <li className={`${location.pathname === '/' ? "bg-blue-800 text-gray-100" : "bg-transparent"} font-medium rounded-xl px-4 py-1`}>
                             <Link to='/'> Inicio </Link>
                         </li>
-                        <li className={`${location.pathname === '/productos' ? "bg-blue-800 text-gray-100" : "bg-transparent"} font-medium rounded-xl px-3 py-0.5`}>
+                        <li className={`${location.pathname === '/productos' ? "bg-blue-800 text-gray-100" : "bg-transparent"} font-medium rounded-xl px-4 py-1`}>
                             <Link to='/productos'> Productos </Link>
                         </li>
-                        <li className={`${location.pathname === '/contacto' ? "bg-blue-800 text-gray-100" : "bg-transparent"} font-medium rounded-xl px-3 py-0.5`}>
+                        <li className={`${location.pathname === '/contacto' ? "bg-blue-800 text-gray-100" : "bg-transparent"} font-medium rounded-xl px-4 py-1`}>
                             <Link to='/contacto'> Contacto </Link>
                         </li>
                     </ul>
